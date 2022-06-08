@@ -3,12 +3,12 @@
 
 import random
 if __name__ == '__main__':
- 
+    
     l = [random.randint(0, 99) for i in range(20)]
-    n_l=l[:]
+n_l=l[:]
  
 print(l.index(sorted(set(l))[-2]))
- 
+
 y = l.index(max(l))
 l[0], l[y] = l[y], l[0]
  
