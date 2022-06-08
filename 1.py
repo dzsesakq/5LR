@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import random
+
 if __name__ == '__main__':
     
     l = [random.randint(0, 99) for i in range(20)]
